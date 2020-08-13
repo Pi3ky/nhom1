@@ -1,0 +1,146 @@
+# depslib dependency file v1.0
+1583727597 source:e:\ftpclient\cli.cpp
+	<iostream>
+	<cstring>
+	"cli.h"
+
+1583727597 e:\ftpclient\cli.h
+	<cstdint>
+	<string>
+
+1587180855 source:e:\ftpclient\main.cpp
+	<iostream>
+	"ftpcli.h"
+
+1587182274 e:\ftpclient\ftpcli.h
+	"cli.h"
+	"tcpsocket.h"
+	"ftptcpclient.h"
+	<string>
+
+1585745736 e:\ftpclient\tcpsocket.h
+	"socket.h"
+
+1583727598 e:\ftpclient\socket.h
+	<string>
+	<exception>
+
+1587213512 e:\ftpclient\ftptcpclient.h
+	"tcpclient.h"
+
+1587190211 e:\ftpclient\tcpclient.h
+	"tcpsocket.h"
+
+1583507332 source:e:\ftpclient\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1585746197 source:e:\ftpclient\tcpclient.cpp
+	"tcpclient.h"
+	<iostream>
+
+1587214311 source:e:\ftpclient\ftptcpclient.cpp
+	"ftptcpclient.h"
+	<iostream>
+	<string.h>
+
+1585746028 source:e:\ftpclient\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpsocket.h"
+
+1587213512 source:e:\ftpclient\ftpcli.cpp
+	<iostream>
+	"ftpcli.h"
+	<string>
+
+1583727597 source:e:\lthtm\ftpclient\cli.cpp
+	<iostream>
+	<cstring>
+	"cli.h"
+
+1583727597 e:\lthtm\ftpclient\cli.h
+	<cstdint>
+	<string>
+
+1590682051 source:e:\lthtm\ftpclient\ftpcli.cpp
+	<iostream>
+	"ftpcli.h"
+	<string>
+	<fstream>
+
+1590032243 e:\lthtm\ftpclient\ftpcli.h
+	"cli.h"
+	"tcpsocket.h"
+	"ftptcpclient.h"
+	<string>
+
+1585745736 e:\lthtm\ftpclient\tcpsocket.h
+	"socket.h"
+
+1583727598 e:\lthtm\ftpclient\socket.h
+	<string>
+	<exception>
+
+1590682068 e:\lthtm\ftpclient\ftptcpclient.h
+	"tcpclient.h"
+
+1587190211 e:\lthtm\ftpclient\tcpclient.h
+	"tcpsocket.h"
+
+1590035343 source:e:\lthtm\ftpclient\ftptcpclient.cpp
+	"ftptcpclient.h"
+	<iostream>
+	<string.h>
+	<cstring>
+	<fstream>
+
+1589120267 source:e:\lthtm\ftpclient\main.cpp
+	<iostream>
+	"ftpcli.h"
+
+1583507332 source:e:\lthtm\ftpclient\socket.cpp
+	"socket.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<cstring>
+	<errno.h>
+
+1585746197 source:e:\lthtm\ftpclient\tcpclient.cpp
+	"tcpclient.h"
+	<iostream>
+
+1585746028 source:e:\lthtm\ftpclient\tcpsocket.cpp
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netinet/in.h>
+	<errno.h>
+	"tcpsocket.h"
+
